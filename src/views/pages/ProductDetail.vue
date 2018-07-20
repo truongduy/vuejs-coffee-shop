@@ -44,7 +44,7 @@ export default {
   data () {
     return {
       sliders: [
-        { src: 'http://10.0.4.36:3000/images/upload/shirt.jpg' }
+        { src: 'https://nodejs-coffee-shop.herokuapp.com/images/upload/shirt.jpg' }
       ],
       quantity: 1
     }

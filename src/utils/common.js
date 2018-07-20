@@ -1,5 +1,5 @@
 import axios from 'axios'
-axios.defaults.baseURL = 'https://nodejs-coffee-shop.herokuapp.com/'
+axios.defaults.baseURL = 'https://nodejs-coffee-shop.herokuapp.com'
 axios.defaults.headers.post['Content-Type'] = 'application/json'
 // axios.defaults.headers.post['Access-Control-Allow-Origin'] = '*'
 axios.defaults.headers.delete['Content-Type'] = 'application/json'
