@@ -66,7 +66,7 @@ export default {
       })
     },
     getCategories (context) {
-      return ApiService.get('category', '').then(({ data }) => {
+      return ApiService.query('category', '').then(({ data }) => {
         context.commit('setCategories', data)
       }).catch(({ response }) => {
         context.commit('setError', response.data.errors)
